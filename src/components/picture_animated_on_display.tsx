@@ -6,7 +6,6 @@ const LINES: { text: string; cls: string }[] = [
   { text: "  focus: ['Data Analysis', 'BI', 'ML'],", cls: "text-ink" },
   { text: "  stack: ['SQL', 'Python',", cls: "text-ink" },
   { text: "          'Power BI', 'Excel'],", cls: "text-ink" },
-  { text: "  pedagogy: true,", cls: "text-ink" },
   { text: "  available: 'opportunities',", cls: "text-ink" },
   { text: "};", cls: "text-ink/60" },
 ];

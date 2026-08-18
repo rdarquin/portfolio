@@ -75,9 +75,9 @@ export const contentFR: Content = {
     available: "Ouvert aux opportunités",
     greeting: "Bonjour, je suis",
     name: "Rémy Darquin",
-    roles: ["Consultant Data", "Data Analyst", "Professeur de mathématiques", "Passionné de pédagogie"],
+    roles: ["Consultant Data", "Data Analyst", "Professeur de mathématiques"],
     tagline:
-      "Expérience en data marketing et dans l'enseignement des mathématiques. Passionné par le partage de connaissances et l'analyse de données, j'aime relever des défis intellectuels et contribuer à la prise de décision grâce à des analyses rigoureuses.",
+      "Data Analyst passionné par l'analyse de données et l'aide à la décision, avec une appétence pour les défis intellectuels et la pédagogie. J'aime transformer des données complexes en insights clairs et actionnables.",
     ctaContact: "Me contacter",
     ctaProjects: "Voir mes réalisations",
     ctaCV: "Télécharger le CV",
@@ -90,13 +90,13 @@ export const contentFR: Content = {
     paragraphs: [
       "Diplômé d'un Master 2 Mathématiques Appliquées, Statistiques et Économétrie (Université de Rennes 1), j'ai construit mon parcours autour de deux passions : l'analyse de données et la transmission du savoir.",
       "En alternance chez Accor, j'ai analysé les pages web des hôtels pour améliorer le taux de conversion et développé un modèle de Customer Lifetime Value (CLTV), avec une restitution claire aux équipes métiers. Chez SYSTRA, j'ai découvert la collecte et la préparation de données ainsi que les outils BI (Excel, Power BI).",
-      "Professeur particulier de mathématiques depuis 3 ans et récemment professeur contractuel en collège, j'aime autant construire un tableau de bord rigoureux qu'expliquer un concept complexe simplement. Curieux et rigoureux, je cherche aujourd'hui une mission ou un poste où allier analyse de données et pédagogie.",
+      "Curieux et rigoureux, je recherche aujourd'hui une mission ou un poste de Data Analyst / Data Scientist, où mettre à profit ma capacité à transformer des données complexes en analyses claires et exploitables pour la prise de décision.",
     ],
     stats: [
-      { value: "3 ans", label: "d'enseignement des maths" },
       { value: "Master 2", label: "Maths appliquées & data" },
       { value: "Accor", label: "Data Analyst en alternance" },
       { value: "FR · EN", label: "Anglais professionnel (B2)" },
+      { value: "3 ans", label: "d'enseignement des maths" },
     ],
   },
   skills: {
@@ -125,9 +125,9 @@ export const contentFR: Content = {
         tags: ["Python", "Machine Learning", "CLTV", "Statistiques"],
       },
       {
-        title: "Pédagogie & transmission",
-        desc: "Cours de mathématiques adaptés à chaque niveau, en particulier comme en classe, avec le sens de la clarté et de la rigueur.",
-        tags: ["Enseignement", "Mentorat", "Vulgarisation"],
+        title: "Pédagogie & vulgarisation",
+        desc: "Rendre une analyse de données accessible et compréhensible pour des interlocuteurs non techniques, avec clarté et rigueur.",
+        tags: ["Vulgarisation", "Storytelling data", "Clarté"],
       },
     ],
     note: "La donnée n'a de valeur que si elle éclaire une décision — chaque analyse part d'une question métier claire.",
@@ -136,17 +136,6 @@ export const contentFR: Content = {
     title: "Parcours",
     kicker: "04 — Expérience",
     items: [
-      {
-        role: "Professeur de mathématiques (contractuel)",
-        org: "Collège des Baous",
-        period: "Avril — Juillet 2026",
-        location: "Saint-Jeannet",
-        bullets: [
-          "Construction de cours adaptés à chaque niveau.",
-          "Gestion de la discipline en classe.",
-          "Création et correction d'évaluations.",
-        ],
-      },
       {
         role: "Data Analyst (Alternance)",
         org: "Accor",
@@ -159,16 +148,6 @@ export const contentFR: Content = {
         ],
       },
       {
-        role: "Professeur particulier de mathématiques",
-        org: "Acadomia · Cours Ado",
-        period: "2023 — Présent",
-        location: "France",
-        bullets: [
-          "Accompagnement personnalisé d'élèves du collège au lycée.",
-          "Pédagogie adaptée au rythme et aux besoins de chacun.",
-        ],
-      },
-      {
         role: "Data Analyst (Stage)",
         org: "SYSTRA",
         period: "Juin — Août 2024",
@@ -176,6 +155,24 @@ export const contentFR: Content = {
         bullets: [
           "Collecte et préparation des données liées à la politique de formation interne.",
           "Formation aux outils BI : Excel et Power BI.",
+        ],
+      },
+      {
+        role: "Professeur de mathématiques (contractuel)",
+        org: "Collège des Baous",
+        period: "Avril — Juillet 2026",
+        location: "Saint-Jeannet",
+        bullets: [
+          "Construction de cours adaptés à chaque niveau et gestion de la classe.",
+        ],
+      },
+      {
+        role: "Professeur particulier de mathématiques",
+        org: "Acadomia · Cours Ado",
+        period: "2023 — Présent",
+        location: "France",
+        bullets: [
+          "Accompagnement personnalisé d'élèves du collège au lycée.",
         ],
       },
     ],
@@ -194,11 +191,6 @@ export const contentFR: Content = {
         name: "Certification Finance de marché",
         desc: "12 ECTS validés au CNAM (février 2026) — une porte d'entrée vers les métiers de la finance quantitative.",
         tags: ["Finance", "CNAM", "Certification"],
-      },
-      {
-        name: "3 ans de cours particuliers",
-        desc: "Accompagnement d'élèves en mathématiques (Acadomia, Cours Ado) — pédagogie et rigueur au service de la réussite.",
-        tags: ["Pédagogie", "Mathématiques", "Mentorat"],
       },
     ],
   },
@@ -234,9 +226,9 @@ export const contentEN: Content = {
     available: "Open to opportunities",
     greeting: "Hi, I'm",
     name: "Rémy Darquin",
-    roles: ["Data Consultant", "Data Analyst", "Maths Teacher", "Teaching enthusiast"],
+    roles: ["Data Consultant", "Data Analyst", "Maths Teacher"],
     tagline:
-      "Experience in data marketing and in teaching mathematics. Passionate about sharing knowledge and analysing data, I enjoy intellectual challenges and contributing to decision-making through rigorous analysis.",
+      "Data Analyst passionate about data analysis and decision support, with a taste for intellectual challenges and clear communication. I enjoy turning complex data into clear, actionable insights.",
     ctaContact: "Get in touch",
     ctaProjects: "See my highlights",
     ctaCV: "Download resume",
@@ -249,13 +241,13 @@ export const contentEN: Content = {
     paragraphs: [
       "Holding a Master's in Applied Mathematics, Statistics and Econometrics (Université de Rennes 1), I've built my path around two passions: analysing data and passing on knowledge.",
       "As a data analyst apprentice at Accor, I analysed hotel web pages to improve conversion rates and built a Customer Lifetime Value (CLTV) model, presenting findings clearly to business teams. At SYSTRA, I learned data collection and preparation along with BI tools (Excel, Power BI).",
-      "A private maths tutor for 3 years and, more recently, a contract teacher in a French middle school, I enjoy building a rigorous dashboard just as much as explaining a complex concept simply. Curious and rigorous, I'm now looking for a role or engagement that combines data analysis with teaching.",
+      "Curious and rigorous, I'm now looking for a Data Analyst / Data Scientist role where I can put my ability to turn complex data into clear, decision-ready analysis to good use.",
     ],
     stats: [
-      { value: "3 yrs", label: "teaching mathematics" },
       { value: "MSc", label: "Applied maths & data" },
       { value: "Accor", label: "Data Analyst apprentice" },
       { value: "FR · EN", label: "Professional English (B2)" },
+      { value: "3 yrs", label: "teaching mathematics" },
     ],
   },
   skills: {
@@ -285,8 +277,8 @@ export const contentEN: Content = {
       },
       {
         title: "Teaching & knowledge sharing",
-        desc: "Maths lessons tailored to each level, one-on-one as much as in a full classroom, with clarity and rigour.",
-        tags: ["Teaching", "Mentoring", "Explaining"],
+        desc: "Making data analysis accessible and understandable for non-technical stakeholders, with clarity and rigour.",
+        tags: ["Storytelling", "Clarity", "Communication"],
       },
     ],
     note: "Data is only worth as much as the decision it informs — every analysis starts with a clear business question.",
@@ -295,17 +287,6 @@ export const contentEN: Content = {
     title: "Experience",
     kicker: "04 — Experience",
     items: [
-      {
-        role: "Mathematics Teacher (fixed-term)",
-        org: "Collège des Baous",
-        period: "Apr — Jul 2026",
-        location: "Saint-Jeannet, France",
-        bullets: [
-          "Built lessons tailored to each class level.",
-          "Managed classroom discipline.",
-          "Created and graded assessments.",
-        ],
-      },
       {
         role: "Data Analyst (Apprenticeship)",
         org: "Accor",
@@ -318,16 +299,6 @@ export const contentEN: Content = {
         ],
       },
       {
-        role: "Private Mathematics Tutor",
-        org: "Acadomia · Cours Ado",
-        period: "2023 — Present",
-        location: "France",
-        bullets: [
-          "One-on-one support for middle- and high-school students.",
-          "Teaching adapted to each student's pace and needs.",
-        ],
-      },
-      {
         role: "Data Analyst (Internship)",
         org: "SYSTRA",
         period: "Jun — Aug 2024",
@@ -335,6 +306,24 @@ export const contentEN: Content = {
         bullets: [
           "Collected and prepared data related to internal training policy.",
           "Trained on BI tools: Excel and Power BI.",
+        ],
+      },
+      {
+        role: "Mathematics Teacher (fixed-term)",
+        org: "Collège des Baous",
+        period: "Apr — Jul 2026",
+        location: "Saint-Jeannet, France",
+        bullets: [
+          "Built lessons tailored to each class level and managed classroom discipline.",
+        ],
+      },
+      {
+        role: "Private Mathematics Tutor",
+        org: "Acadomia · Cours Ado",
+        period: "2023 — Present",
+        location: "France",
+        bullets: [
+          "One-on-one support for middle- and high-school students.",
         ],
       },
     ],
@@ -353,11 +342,6 @@ export const contentEN: Content = {
         name: "Market Finance certification",
         desc: "12 ECTS credits validated at CNAM (February 2026) — a gateway into quantitative finance.",
         tags: ["Finance", "CNAM", "Certification"],
-      },
-      {
-        name: "3 years of private tutoring",
-        desc: "Supporting students in mathematics (Acadomia, Cours Ado) — teaching and rigour in service of success.",
-        tags: ["Teaching", "Mathematics", "Mentoring"],
       },
     ],
   },
